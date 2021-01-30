@@ -1,0 +1,35 @@
+.isComplete{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+.todos{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 5px;
+    left: 300px;
+  
+}
+.child{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 32px;
+   border-top: 1px solid #999999;
+  
+}
+.child p{
+    margin-left: 20px;
+}
+.cancel{
+   opacity: 0.5;
+    margin-right: 10px;
+    margin-left: auto;
+    padding-top: 10px;
+    transition: opacity .35s ease ;
+}
+
+
